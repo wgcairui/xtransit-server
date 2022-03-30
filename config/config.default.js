@@ -3,7 +3,7 @@
 module.exports = () => {
   const config = {};
 
-  config.xtransitManager = 'http://127.0.0.1:8543';
+  config.xtransitManager = 'http://172.18.0.1:8543';
 
   config.agentKey = Symbol('XTRANSIT::ID');
 
