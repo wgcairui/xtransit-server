@@ -8,7 +8,9 @@
     "stop": "pm2 delete xtransit-server",
     "dev": "nodemon dispatch.js",
     "lint": "eslint config controller handler lib middleware proxy service *.js --fix",
-    "autod": "autod"
+    "autod": "autod",
+    "build:docker": "sudo docker build -t xtserver ."
+
   },
   "repository": {
     "type": "git",
